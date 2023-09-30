@@ -1,0 +1,29 @@
+
+@keyframes changeShape{
+    from{
+        trans: ;
+
+    }
+    50%{
+        border-radius: 25%;
+    }
+    to{
+        border-radius: 50%;
+    }
+}
+
+
+div{
+    height: 100px;
+    width:100px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: aquamarine;
+    animation: changeShape 1s steps(5,end) infinite alternate;    
+}
+div:hover{
+   transform: translate(150px);
+   transform: rotate(145deg);
+    transform:scale(1.50px)
+}

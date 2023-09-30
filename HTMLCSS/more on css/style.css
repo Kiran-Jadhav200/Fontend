@@ -1,0 +1,21 @@
+html{
+    font-size: 30px ;
+}
+#div1{
+    height:4rem /*200px 100vh*/;
+    width: 6rem /*200px 100vw*/ ;
+    background-color: #393a7b;
+    border-width: 2px.4px.6px;
+    border-style: dashed;
+    border-color: red;
+    border-radius: 100%;
+}
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: bisque;
+    
+}
+#sample-para{
+    border: 2px solid red;
+}
